@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-5fw0i1qusi2xirn60ho9cuzwp2n2t00">
+  <files names="BoolVar_Editor.java:BoolVar_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:EmptyLine_Editor.java:EmptyLine_EditorBuilder_a.java:IntLiteral_Editor.java:IntLiteral_EditorBuilder_a.java:IntVar_Editor.java:IntVar_EditorBuilder_a.java:LeftVar_Editor.java:LeftVar_EditorBuilder_a.java:RightVar_Editor.java:RightVar_EditorBuilder_a.java:TwoValues_Editor.java:TwoValues_EditorBuilder_a.java:TwoVars_Editor.java:TwoVars_EditorBuilder_a.java:VariableRef_Editor.java:VariableRef_EditorBuilder_a.java:Worksheet_Editor.java:Worksheet_EditorBuilder_a.java" />
+</product>
+

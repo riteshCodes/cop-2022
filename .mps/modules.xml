@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/SoSeWorksheet/SoSeWorksheet.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SoSeWorksheet.Interpreter/SoSeWorksheet.Interpreter.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SoSeWorksheet.runtime/SoSeWorksheet.runtime.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
