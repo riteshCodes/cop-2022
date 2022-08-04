@@ -1,12 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
-  <root nodeRef="r:19ecaf4f-5f8d-4d65-ac40-350cfb1345e1(SoSeWorksheet.runtime)/1914451482090391222">
-    <file name="TestSheet.java">
-      <node id="2226090192044363688" at="8,0,9,0" concept="0" trace="isTest" />
-      <node id="2226090192044534164" at="9,0,10,0" concept="0" trace="a" />
-      <node id="2226090192044568965" at="10,0,11,0" concept="0" trace="b" />
-      <unit id="1914451482090391222" at="6,0,12,0" name="SoSeWorksheet.runtime.TestSheet" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:19ecaf4f-5f8d-4d65-ac40-350cfb1345e1(SoSeWorksheet.runtime)/2226090192045309061">
+    <file name="TestWorksheet.java">
+      <node id="168642126956730799" at="7,29,8,30" concept="5" />
+      <node id="168642126956730824" at="8,30,9,31" concept="5" />
+      <node id="2299934144614723952" at="9,31,10,32" concept="5" />
+      <node id="2299934144614968348" at="10,32,11,36" concept="5" />
+      <node id="2299934144615209275" at="11,36,12,44" concept="5" />
+      <node id="2727448002608251573" at="12,44,13,24" concept="5" />
+      <node id="2299934144613654896" at="13,24,14,38" concept="0" />
+      <node id="3054557244785196955" at="14,38,15,28" concept="0" />
+      <node id="3054557244785203495" at="15,28,16,36" concept="0" />
+      <node id="3674908999381474342" at="17,35,18,25" concept="0" />
+      <node id="2727448002608249261" at="20,41,21,32" concept="0" />
+      <node id="2727448002608249386" at="23,24,24,25" concept="0" />
+      <node id="168642126956834892" at="28,0,29,0" concept="1" trace="isMale" />
+      <node id="168642126956834903" at="29,0,30,0" concept="1" trace="age" />
+      <node id="3674908999379731310" at="30,0,31,0" concept="1" trace="a" />
+      <node id="3674908999380801423" at="31,46,32,14" concept="0" />
+      <node id="168642126956834917" at="32,14,33,15" concept="6" />
+      <node id="2727448002606689161" at="35,38,36,20" concept="0" />
+      <node id="2727448002606689143" at="36,20,37,19" concept="6" />
+      <node id="7662340568309220014" at="39,34,40,19" concept="6" />
+      <node id="2727448002607826505" at="16,36,19,5" concept="3" />
+      <node id="2727448002608249223" at="19,5,22,5" concept="2" />
+      <node id="2727448002608249338" at="22,5,25,5" concept="8" />
+      <node id="7662340568309220012" at="39,0,42,0" concept="4" trace="add#(II)I" />
+      <node id="168642126956834914" at="31,0,35,0" concept="4" trace="setAge#(IZ)I" />
+      <node id="2727448002606689141" at="35,0,39,0" concept="4" trace="setGenderToMale#()Z" />
+      <node id="2226090192045309061" at="7,0,27,0" concept="7" trace="main#()V" />
+      <scope id="2727448002607826505" at="17,35,18,25" />
+      <scope id="2727448002608249223" at="20,41,21,32" />
+      <scope id="2727448002608249338" at="23,24,24,25" />
+      <scope id="7662340568309220012" at="39,34,40,19" />
+      <scope id="168642126956834914" at="31,46,33,15" />
+      <scope id="2727448002606689141" at="35,38,37,19" />
+      <scope id="2727448002608249223" at="19,5,22,5">
+        <var name="i" id="2727448002608249223" />
+      </scope>
+      <scope id="7662340568309220012" at="39,0,42,0">
+        <var name="x" id="7662340568309220043" />
+        <var name="y" id="7662340568309220053" />
+      </scope>
+      <scope id="168642126956834914" at="31,0,35,0">
+        <var name="a" id="7662340568309111037" />
+        <var name="isDead" id="7662340568309111045" />
+      </scope>
+      <scope id="2727448002606689141" at="35,0,39,0" />
+      <scope id="2226090192045309061" at="7,29,25,5">
+        <var name="bool1" id="2299934144615209275" />
+        <var name="dog" id="2727448002608251573" />
+        <var name="globalBool" id="168642126956730799" />
+        <var name="globalInt" id="168642126956730824" />
+        <var name="globalInt2" id="2299934144614723952" />
+        <var name="globalInt3" id="2299934144614968348" />
+      </scope>
+      <scope id="2226090192045309061" at="7,0,27,0" />
+      <unit id="168642126956834889" at="27,0,43,0" name="SoSeWorksheet.runtime.TestWorksheet$Dog" />
+      <unit id="2226090192045309061" at="6,0,44,0" name="SoSeWorksheet.runtime.TestWorksheet" />
     </file>
   </root>
 </debug-info>
