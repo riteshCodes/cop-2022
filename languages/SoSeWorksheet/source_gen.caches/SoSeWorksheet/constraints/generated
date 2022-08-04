@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="1uh2qphnc9uwy1xinmpxd0eewyt9dhq">
-  <files names="ConstraintsAspectDescriptor.java:VariableRef_Constraints.java" />
+<product version="3" modelHash="-g048e788x3ykx64b6ecy1suxkg8rwv">
+  <files names="BoolParameter_Constraints.java:BoolRef_Constraints.java:ClassDefinition_Constraints.java:ConstraintsAspectDescriptor.java:Expression_Constraints.java:FunctionCall_Constraints.java:Function_Constraints.java:IParam_Constraints.java:IVariable_Constraints.java:IntParameter_Constraints.java:IntRef_Constraints.java:VarType_Constraints.java" />
 </product>
 

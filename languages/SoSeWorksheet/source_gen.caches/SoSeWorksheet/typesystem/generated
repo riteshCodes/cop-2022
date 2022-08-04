@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-dds2d8w8k4k1v6wurn58fhzufb926z" />
+<product version="3" modelHash="1qtezqcowv4ahc931efddmuo0gxqmy0">
+  <files names="TypesystemDescriptor.java:check_FunctionCall_NonTypesystemRule.java" />
+</product>
 

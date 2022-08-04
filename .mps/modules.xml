@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/SoSeWorksheet/SoSeWorksheet.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/SoSeWorksheet.Interpreter/SoSeWorksheet.Interpreter.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SoSeWorksheet.interpreter/SoSeWorksheet.interpreter.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/SoSeWorksheet.runtime/SoSeWorksheet.runtime.msd" folder="" />
     </projectModules>
   </component>
