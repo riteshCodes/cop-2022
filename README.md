@@ -8,15 +8,6 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li>
-      <a href="#already-done">Already Done</a>
-    </li>
-	<li>
-      <a href="#to-do">To Do</a>
-    </li>
-	<li>
-      <a href="#useful-tips">Useful tips</a>
-    </li>
 	<li>
       <a href="#contact">Contact</a>
     </li>
@@ -26,16 +17,11 @@
 
 <!--  ABOUT THE PROJECT -->
 ## About The Project
-This is a repository for developing a domain specific language from the lecture, "Concepts of Programming Languages SoSe22", offered by Technische Universität Darmstadt.
-This is the project from the group consisting of Shrestha,  Asad, Jakob and Philipp.
+This is a repository for developing a domain specific language from the lecture, "Concepts of Programming Languages SoSe22", offered by Technische Universität Darmstadt. This project contains an implementation of a domain-specific programming language with following implemented features.
 
-<!--  Already done -->
-## Already done
+### Implemented Features
 <ul>
-  <li>Int and Bool Vars Definition</li>
-	<ul>
-      <li>Var name can only occur once per scope</li>
-    </ul>
+  <li>Int and Bool Variables</li>
   <li>Variable References</li>
 	<ul>
 	  <li>Can only be accessed from same scope</li>
@@ -43,31 +29,31 @@ This is the project from the group consisting of Shrestha,  Asad, Jakob and Phil
   <li>Expressions</li>
 	<ul>
 	  <li>+,-,+,\* operator</li>
-	  <li>bracktes gets generated in java code if a + or - expression is choosen in \* or / expression</li>
+	  <li>Bracktes gets generated in java code if a + or - expression is choosen in \* or / expression</li>
 	  <li>==, !=, <=, <, >=, > operator</li>
 	  <li>Int and Bool Literal</li>
 	  <li>In a binary expression, both parts can be vars or Literals</li>
 	</ul>
   <li>Reassignment</li>
-  <li>if, for, while</li>
+  <li>Loops</li>
 	<ul>
 	  <li>In if and while loop header BoolExpression valid</li>
-	  <li>structure of for loop: for (varDefine, IntLitearal(MaxValue), IntLitearal(Increment))</lo>
+	  <li>Structure of for loop: for (varDefine, IntLitearal(MaxValue), IntLitearal(Increment))</lo>
 	  <li>No elseIf, else</li>
-	  <li>Just one statement in the body of each construct</li>
+	  <li>One statement in the body of each construct</li>
 	</ul>
   <li>Classes</li>		
     <ul>
 	  <li>Class can have 0..n class variables</li>
 	  <li>Class can have 0..n classes</li>
-	  <li>structure of class: class Name{ IntVars, BoolVars, Functions }</lo>
+	  <li>Structure of class: class Name{ IntVars, BoolVars, Functions }</lo>
 	</ul>
   <li>Functions</li>		
     <ul>
-	  <li>can have 0..n parameters</li>
-	  <li>Just one statement in the body</li>
-	  <li>must have one return statement at the end</li>
-	  <li>structure of function: fun Name(intParams, boolParams) : returnType (int/boolean){ statement (0..1), return Statement}</lo>
+	  <li>Can have 0..n parameters</li>
+	  <li>Only one statement in the body</li>
+	  <li>Must have one return statement at the end</li>
+	  <li>Structure of function: fun Name(intParams, boolParams) : returnType (int/boolean){ statement (0..1), return Statement}</lo>
 	</ul>
   <li>Objects</li>		
     <ul>
@@ -79,12 +65,10 @@ This is the project from the group consisting of Shrestha,  Asad, Jakob and Phil
   <li>Constraints</li>
     <ul>
 	  <li>No multiple names for vars</li>
-	  <li>var, function and class names can have whitespaces in them</li>
 	</ul>
   <li>Generator</li>
     <ul>
-	  <li>Can generate Java code out of the Worksheets</li>
-	  <li>Propably some bugs in generator</li>
+	  <li>Generates Java code out of the Worksheets</li>
 	</ul>
 </ul>
 </ul>
